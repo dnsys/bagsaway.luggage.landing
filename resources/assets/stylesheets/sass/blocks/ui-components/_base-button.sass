@@ -1,0 +1,59 @@
+.base-button
+  display: inline-block
+  cursor: pointer
+  text-decoration: none
+  border: 2px solid
+  border-radius: 4px
+  transition: .3s ease
+  font-family: $montserrat-semi-bold
+  &:hover
+    text-decoration: none
+
+  &--small
+    font-size: 12px
+    padding: 10px 25px
+
+  &--medium
+    font-size: 16px
+    padding: 20px 40px
+
+  &--large
+    font-family: $montserrat-extra-bold
+    font-size: 19px
+    padding: 20px 33px
+
+  &--filled
+    background: $base-color
+    border-color: $base-color
+    color: #ffffff
+    &:hover
+      background: transparent
+      color: $base-color
+
+  &--border
+    border-color: rgba(31, 26, 65, .07)
+    color: $color-dark-blue
+    &:hover
+      border-color: $base-color
+      color: $base-color
+
+  &--shadow
+    box-shadow: 0 -2px 24px 0 rgba(0, 0, 0, 0.1)
+
+  &--blue
+    background: $color-dark-blue
+    color: #ffffff
+    border-color: $color-dark-blue
+    &:hover
+      color: $color-dark-blue
+      background: transparent
+      border-color: $color-dark-blue
+
+  &--white
+    background: #ffffff
+    color: $base-color
+    border-color: #ffffff
+    &:hover
+      background: transparent
+      border-color: #ffffff
+      color: #ffffff
