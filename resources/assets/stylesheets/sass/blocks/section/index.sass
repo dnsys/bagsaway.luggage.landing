@@ -80,6 +80,11 @@
       height: auto
 
   &--time
+    background-color: #2c2272
+    background-size: contain
+    background-position: left 7% center
+    background-repeat: no-repeat
+    background-image: url('blocks/section/clock.svg')
     &:after
       content: ''
       display: block
@@ -91,9 +96,22 @@
       background: #000000
       opacity: 0
       transition: .3s ease
-    +media-1200
+    +media-992
       &:after
         opacity: .7
+    +media-640
+      background-size: cover
+
+  &--boxes
+    background-color: #129bd7
+    background-size: 35%
+    background-position: right 17% bottom
+    background-repeat: no-repeat
+    +media-992
+      padding-bottom: 35%
+      background-position: center bottom
+      background-size: 55%
+
 
   &--no-paddings
     padding: 0

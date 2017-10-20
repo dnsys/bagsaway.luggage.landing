@@ -6,7 +6,6 @@
     padding-top: 100%
 
   &__image-inner
-    vertical-align: middle
     position: absolute
     top: 0
     right: 0
@@ -14,7 +13,7 @@
     left: 0
     height: 100%
     width: 100%
-    border: 7px solid #6cc04a
+    border: 7px solid
     text-align: center
     display: flex
     flex-flow: column
@@ -35,5 +34,34 @@
     margin-top: 8px
 
   &__list
+    min-height: 200px
+    display: flex
+    align-items: center
+    font-size: 14px
+    line-height: 20px
+    color: #516065
+    padding: 20px 10px
+    ul
+      li
+        padding: 8px 0
 
   &__button
+
+
+  &--green &__image-inner
+    border-color: #6cc04a
+  &--green &__list
+    i
+      color: #6cc04a
+
+  &--orange &__image-inner
+    border-color: #f7a800
+  &--orange &__list
+    i
+      color: #f7a800
+
+  &--blue &__image-inner
+    border-color: #00a1df
+  &--blue &__list
+    i
+      color: #00a1df

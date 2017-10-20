@@ -3,6 +3,12 @@
   display: inline-block
   text-align: center
   position: relative
+  +media-768
+    width: 100%
+    display: flex
+    flex-flow: row-reverse
+    justify-content: flex-end
+    align-items: center
 
   &__name
     font-family: $montserrat-bold
@@ -11,6 +17,12 @@
     text-align: center
     color: #ffffff
     margin-bottom: 30px
+    +media-768
+      text-align: left
+      margin-bottom: 0
+      margin-left: 10%
+    +media-480
+      font-size: 14px
 
   &__image
     display: inline-block
@@ -20,17 +32,28 @@
     border: 8px solid #f7a800
     background: #1070b4
     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75)
+    +media-768
+      width: 120px
+      height: 120px
 
   &--first
     margin-right: -55px
     z-index: 1
+    +media-768
+      margin-right: 0
 
   &--second
     z-index: 2
+    +media-768
+      margin-top: -20px
 
   &--third
     margin-left: -55px
     z-index: 1
+    +media-768
+      margin-left: 0
+      z-index: 3
+      margin-top: -20px
 
   &--third &__image
     box-shadow: 0 2px 59px 24px rgba(248, 248, 247, 0.46)
