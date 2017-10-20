@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="293px" height="293px" viewBox="0 0 293 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 47 (45292) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <path d="M163,81.5 C163,126.51113 126.51113,163 81.5,163 C36.4888696,163 0,126.51113 0,81.5 C0,36.4888696 36.4888696,0 81.5,0 C126.51113,0 163,36.4888696 163,81.5" id="path-1"></path>
+        <filter x="-61.3%" y="-60.1%" width="222.7%" height="222.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="9.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.136379076 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Text-Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Luggage-landing" transform="translate(-953.000000, -1462.000000)">
+            <g id="Group-24" transform="translate(0.000000, 1458.000000)">
+                <g id="Group-26">
+                    <g id="Group-25" transform="translate(99.000000, 67.000000)">
+                        <g id="Group" transform="translate(1000.500000, 81.500000) scale(-1, 1) translate(-1000.500000, -81.500000) translate(919.000000, 0.000000)">
+                            <g id="Fill-26">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M45.5441176,67.3752832 L47.5558017,61.761455 C52.1236569,49.0169518 66.0964379,42.4101677 78.7660837,47.0044578 L127.843137,64.8006865 L119.494703,88.0955538 C118.42665,91.0755291 115.159728,92.6200657 112.197807,91.5457018 L45.5441176,67.3752832 Z" id="Fill-27" fill="#4E514D"></path>
+                            <polyline id="Fill-28" fill="#343532" points="126.701882 93.4852941 118.254902 90.3348574 125.788314 68.7156863 134.235294 71.866123 126.701882 93.4852941"></polyline>
+                            <polyline id="Fill-29" fill="#343532" points="64.0480027 95.8823529 51.1372549 91.2818697 58.2014356 71.9117647 71.1127451 76.5128031 64.0480027 95.8823529"></polyline>
+                            <polyline id="Fill-30" fill="#343532" points="50.3382353 94.2843137 39.1519608 94.2843137 39.1519608 105.470588 50.3216121 105.470588 50.3382353 94.2843137"></polyline>
+                            <path d="M48.7401961,99.0787153 C48.7401961,95.1071169 51.960058,91.8872549 55.9316564,91.8872549 C59.9032548,91.8872549 63.122549,95.1071169 63.122549,99.0787153 C63.122549,103.049746 59.9032548,106.269608 55.9316564,106.269608 C51.960058,106.269608 48.7401961,103.049746 48.7401961,99.0787153" id="Fill-31" fill="#59B6F8"></path>
+                            <path d="M34.5354278,117.455882 L27.1666667,117.455882 L27.1666667,83.0980392 L34.5354278,83.0980392 C37.0851471,83.0980392 39.1519608,85.1702613 39.1519608,87.7259646 L39.1519608,112.827957 C39.1519608,115.38366 37.0851471,117.455882 34.5354278,117.455882" id="Fill-32" fill="#00A1DF"></path>
+                            <path d="M55.9313725,50.9646858 L124.325965,75.1078431 L125.446078,72.01797 L59.501423,48.7401961 C58.2519604,49.3767811 57.0569898,50.1211969 55.9313725,50.9646858" id="Fill-33" fill="#00A1DF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

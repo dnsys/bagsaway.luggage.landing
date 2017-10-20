@@ -1,0 +1,36 @@
+.step-block
+  width: (100%/3)
+  display: inline-block
+  text-align: center
+  position: relative
+
+  &__name
+    font-family: $montserrat-bold
+    font-size: 20px
+    line-height: 31px
+    text-align: center
+    color: #ffffff
+    margin-bottom: 30px
+
+  &__image
+    display: inline-block
+    width: 215px
+    height: 215px
+    border-radius: 50%
+    border: 8px solid #f7a800
+    background: #1070b4
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75)
+
+  &--first
+    margin-right: -55px
+    z-index: 1
+
+  &--second
+    z-index: 2
+
+  &--third
+    margin-left: -55px
+    z-index: 1
+
+  &--third &__image
+    box-shadow: 0 2px 59px 24px rgba(248, 248, 247, 0.46)
